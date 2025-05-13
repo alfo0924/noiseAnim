@@ -22,7 +22,7 @@ body {
     opacity: 0.1;
     pointer-events: none; /* 讓雜訊不阻擋滑鼠事件 */
     z-index: 1; /* 確保雜訊在最上層 */
-    animation: noiseAnim 2.5s steps(10) infinite;
+    animation: noiseAnim 1.5s steps(10) infinite;
 }
 
 @keyframes noiseAnim {
